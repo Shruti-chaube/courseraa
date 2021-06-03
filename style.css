@@ -1,0 +1,39 @@
+body{
+    background-color:rgb(4,92,107);
+    color:azure;
+    margin-left: 15px;
+}
+a{
+    color:grey;
+    font-size: 20pt;
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(4,92,107);
+    background-color: azure;
+    text-decoration: none;
+}
+h1{
+    font-family:"Times new roman"serif;
+    font-size: 50pt;
+}
+.index{
+    margin-left: 20px;
+}
+.gap{
+    margin-bottom: 40px;
+}
+@media(min-width:750px){
+.respo{
+    display:inline-block;
+    width: 200px;
+    border:1px Solid black;
+}
+}
+@media(min-width:1000px){
+    .respo{
+        display:inline-block;
+        width: 500px;
+        border:1px Solid black;
+    }
+    }
